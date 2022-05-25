@@ -1,0 +1,13 @@
+.inicio{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #FFFFFF;  
+}
+
+body {
+    min-height: 50vh; /*define la altura minima del elemento*/
+    max-width: 600px; /*define la altura maximo del elemento*/
+    background-color: #A2D9CE; 
+    margin: 0 auto ; /*margen de los 4 lados*/
+}

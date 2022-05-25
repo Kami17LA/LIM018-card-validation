@@ -5,10 +5,46 @@
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <header></header>
-    <main></main>
+    <header>  <!-- Encabezado --> 
+      <h1>HABLANDO HUEVADAS</h1>  
+      <h2>Funciones en Cusco</h2>
+      <h3>Jorge Luna y Ricardo Mendoza</h3>
+    </header>
+    
+    <input type="button" value="COMPRAR" class="redondo" id="comprarEntradas">
+
+    <main> <!-- Contenido Principal --> 
+      <h1>¿Cuantas entradas desea comprar? </h1>
+      <p>s/180  Preventa Golden <input type="text"> </p> 
+      <p>s/120  Preventa Platinium <input type="text"> </p>
+      <p>s/180  Preventa Vip <input type="text"> </p>
+      <p>s/180  Preventa General <input type="text"> </p>
+
+     // Datos de tarjeta
+
+      <h2>DATOS DEL COMPRADOR</h2>
+
+      <div class="valida">
+      <p>Número de la tarjeta</p> <br> 
+      <input type="text" id="numerosIniciales" > <!-- id de mi caja de texto--> 
+      </div>
+
+      <p>MM/AA</p> <input type="text" > <br> <p>CVV</p>  <input type="text" >
+      <p>Nombre y Apellido</p> <br> <input type="text" >  
+      <p>Correo electronico</p> <br> <input type="text" > <hr>
+      <button id= "boton" > PAGAR </button> <!-- id de mi boton--> 
+
+      <!-- <input type="button" value="PAGAR" onclick="datos()"> --> 
+      <!--<button id=" boton" onclick="datos ()"> PAGAR </button> -->
+  
+
+    </main>
+
     <footer></footer>
+
+
     <script src="index.js" type="module"></script>
   </body>
 </html>

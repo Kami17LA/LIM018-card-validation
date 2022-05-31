@@ -7,13 +7,14 @@
   </head>
 
   <body>
-    <header>  <!-- Encabezado --> 
-      <h1>HABLANDO HUEVADAS</h1>  
-      <h2>Funciones en Cusco</h2>
-      <h3>Jorge Luna y Ricardo Mendoza</h3>
-    </header>
-    
-    <input type="button" value="COMPRAR" class="redondo" id="comprarEntradas">
+    <div>  
+      <header>  <!-- Encabezado --> 
+       <h1>HABLANDO HUEVADAS</h1>  
+       <h2>Funciones en Cusco</h2>
+       <h3>Jorge Luna y Ricardo Mendoza</h3>
+      </header>
+      <input type="button" value="COMPRAR" class="redondo" id="comprarEntradas">
+    </div>
 
     <main> <!-- Contenido Principal --> 
       <h1>¿Cuantas entradas desea comprar? </h1>
@@ -27,14 +28,18 @@
       <h2>DATOS DEL COMPRADOR</h2>
 
       <div class="valida">
-      <p>Número de la tarjeta</p> <br> 
-      <input type="text" id="numerosIniciales" > <!-- id de mi caja de texto--> 
+      <p>Coloca tu número de la tarjeta</p> <br> 
+      <input type="text" id="numerosIniciales" > 
+      <p id="respuesta"></p>
+      <p id="numerosFinales"></p>
+      <!-- id de mi caja de texto--> 
       </div>
 
       <p>MM/AA</p> <input type="text" > <br> <p>CVV</p>  <input type="text" >
       <p>Nombre y Apellido</p> <br> <input type="text" >  
       <p>Correo electronico</p> <br> <input type="text" > <hr>
       <button id= "boton" > PAGAR </button> <!-- id de mi boton--> 
+      <input type="button" value="VOLVER" id="volverInicio" > 
 
       <!-- <input type="button" value="PAGAR" onclick="datos()"> --> 
       <!--<button id=" boton" onclick="datos ()"> PAGAR </button> -->

@@ -1,13 +1,277 @@
-.inicio{
-    position: relative;
-    width: 1440px;
-    height: 1024px;
-    background: #FFFFFF;  
+
+body{ 
+    /*background: url("hablando-huevadas-1.jpg"); */
+    background: url("HH1.jpeg");
 }
 
-body {
-    min-height: 50vh; /*define la altura minima del elemento*/
-    max-width: 600px; /*define la altura maximo del elemento*/
-    background-color: #A2D9CE; 
-    margin: 0 auto ; /*margen de los 4 lados*/
+#container{
+    /*background: url("hh-logo-large.png"); */
+    margin: 90px auto;  /*establece el margen para los 4 lados */
+    padding: 1px; /*area del contenido del elemento y su borde */
+    width: 900px;
+    text-align: center;
+    position: absolute center;
 }
+
+#container .card{
+    background-color: black;
+    border: solid 10px white;
+    padding: 150px;
+    width: 400px;
+}
+
+#hablando{
+    
+    position: absolute;
+    width: 812px;
+    height: 282px;
+    left: 314px;
+    top: 10px;
+
+    font-family: 'Arial black';
+    font-weight: 90;
+    font-size: 90px;
+    line-height: 10px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+#huevadas{
+    position: absolute;
+    width: 812px;
+    height: 282px;
+    left: 314px;
+    top: 144px;
+
+    font-family: 'Arial black';
+    font-weight: 90;  /*saturación del color de la letra*/
+    font-size: 90px;  /*tamaño de la letra*/
+    line-height: 10px; /*establece distancias entre lineas de texto*/
+    text-align: center;
+    color: red;
+
+}
+
+#funciones{
+    position: absolute center;
+    font-family: 'Curier new';
+    font-weight: 10;
+    font-size: 50px;
+    line-height: 10px;
+    text-align: center;
+    color: white;
+
+
+}
+
+#jorgeRicardo{
+    position: absolute center;
+    top: 50px;
+
+    font-family: 'Arial black';
+    font-weight: 10;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+
+}
+
+#comprarEntradas{
+    position: center;
+    width: 200px;
+    height: 90px;
+    left: 532px;
+    top: 788px;
+    font-family: 'Verdana';
+    font-size: 25px;
+    color:whitesmoke;
+
+    background:  #006f65;
+    border-radius: 30px;
+
+}
+
+.card1 {
+    display: none;
+}
+
+#container .card1{
+    
+    background-color: black;
+    border: solid 5px white;
+    padding: 100px;
+    width: 600px;
+    text-align: center;
+}
+  
+
+#datosComprador{
+    
+  position: absolute center;
+  top: 100px; /*encima */
+
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 10;
+  font-size: 40px;
+  line-height: 20px;
+  color: #ffb209;
+
+}
+
+#colocaNumero{
+    position: absolute center;
+    top: 100px; /*encima */
+  
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 10;
+    font-size: 20px;
+    line-height: 10px;
+    color: white;
+  
+  }
+
+  #numerosIniciales{
+    
+   position: absolute center;
+   width: 250px;
+   height: 30px;
+   left: 550px;
+   top: 100px;
+   background: white;
+  }
+
+#respuesta {
+    position: absolute center;
+    top: 100px; /*encima */
+  
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 10;
+    font-size: 20px;
+    line-height: 10px;
+    color: red;
+
+}
+
+#mmaa{
+    position: absolute center;
+    top: 100px; /*encima */
+  
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 10;
+    font-size: 20px;
+    line-height: 10px;
+    color: white;
+}
+
+#textoMmaa{
+    
+    position: absolute center;
+    width: 250px;
+    height: 30px;
+    left: 550px;
+    top: 100px;
+    background: white;
+}
+
+#cvv{
+    position: absolute center;
+    top: 100px; /*encima */
+  
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 10;
+    font-size: 20px;
+    line-height: 10px;
+    color: white;
+}
+
+#textoCvv{
+    
+    position: absolute center;
+    width: 250px;
+    height: 30px;
+    left: 550px;
+    top: 100px;
+    background: white;
+}
+
+#nombre{
+    position: absolute center;
+    top: 60px; /*encima */
+  
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 10;
+    font-size: 20px;
+    line-height: 10px;
+    color: white;
+}
+
+#textoNombre{
+    
+    position: absolute center;
+    width: 250px;
+    height: 30px;
+    left: 550px;
+    top: 100px;
+    background: white;
+}
+
+
+#correo{
+    position: absolute center;
+    top: 60px; /*encima */
+  
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 10;
+    font-size: 20px;
+    line-height: 10px;
+    color: white;
+}
+
+#textoCorreo{
+    
+    position: absolute center;
+    width: 250px;
+    height: 30px;
+    left: 550px;
+    top: 100px;
+    background: white;
+}
+
+#boton{
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    left: 690px;
+    top: 850px;
+
+    background: #006f65;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: 'Verdana';
+    color:white ;
+
+}
+
+#volverInicio{
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    left: 910px;
+    top: 850px;
+
+    background: #006f65;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: 'Verdana';
+    color:white ;
+}
+

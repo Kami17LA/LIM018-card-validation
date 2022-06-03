@@ -8,8 +8,8 @@ const validator = {
     let arrayPares = arrayRevertido.filter((elemento,i)=> i % 2!=0); // 
     let arrayImpares = arrayRevertido.filter((elemento,i) => i % 2==0); // 
     //console.log(arrayPares);
-    console.log(arrayImpares);
-
+    //console.log(arrayImpares);
+ 
     let sumaNuevosPares = 0;
     let sumaNuevosImpares = 0;
     let devuelve;
@@ -47,8 +47,6 @@ const validator = {
   } ,
  
   //Función maskify
- 
-
   maskify:function(creditCardNumber){
   //console.log (creditCardNumber);  
   let totalEnmascarado;
@@ -75,13 +73,3 @@ const validator = {
 }
 
 export default validator;
-
-
-//return creditCardNumber.split (' ').map ((numeros,i) => 
-//i < creditCardNumber.length - 4 ? '#' : numeros). join(' ');
-
-
-
-//var miCadena = "Hola Mundo. Cómo estás hoy?";
-//var divisiones = miCadena.split(" ", 3);
-//console.log(divisiones);

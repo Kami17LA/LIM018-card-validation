@@ -40,7 +40,7 @@ cargarNuevamente.addEventListener ('click' , () => location.reload ());
 
 let botonComprar = document.getElementById("comprarEntradas");
 botonComprar.addEventListener ("click" , () => {
- document.querySelector('#contenedorComprar').style.display="none";
+ document.getElementById("contenedorComprar").style.display="none";
  document.getElementById("contenedorDatos").style.display= "block";
 })
 

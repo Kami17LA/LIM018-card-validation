@@ -10,8 +10,8 @@ En esta página podras comprar entradas para las funciones de Hablando Huevadas 
   * Ocultar los números de la tarjeta para mayor seguridad.
   * Enviar las entradas al correo electronico.
 
-![Imagen final del proyecto primera parte]("InicioHH.PNG")
-![Imagen final del proyecto segunda parte]("ValidarHH.PNG")
+![Imagen final del proyecto primera parte]("Inicio HH.PNG")
+![Imagen final del proyecto segunda parte]("Validar HH.PNG")
 
 ## 2. Investigación UX
 
@@ -31,7 +31,7 @@ Feedback que recibi de mis compañeras:
 * En la sección inicial de la página utilizar un fondo más claro debido a que opacaba a la información que añadia.
 * En la sección Datos de comprador mejorar el CSS para hacerlo visualmente atractivo.
 * En la sección Datos del comprador agregar un boton (VOLVER) para cargar la pagina y volver nuevamente al inicio de la página.
-
+* [LINK DE MI PÁGINA - Visitame 👀 !!](https://kami17la.github.io/LIM018-card-validation/src/)
 
 
 

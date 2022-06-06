@@ -1,3 +1,40 @@
+# BIENVENIDO(A) A LA PÁGINA DE HABLANDO HUEVADAS
+
+En esta página podras comprar entradas para las funciones de Hablando Huevadas en Cusco y hacer de esta fecha una experiencia inolvidable. Te esperamos!!
+
+## 1. Imagen final de mi proyecto
+
+  * Crear una página web donde se pueda comprar entradas de forma segura
+  * Escribir datos personales para realizar la compra.
+  * Colocar el número de tarjeta de crédito y verificar sí es válida o no.
+  * Ocultar los números de la tarjeta para mayor seguridad.
+  * Enviar las entradas al correo electronico.
+
+![Imagen final del proyecto primera parte]("InicioHH.PNG")
+![Imagen final del proyecto segunda parte]("ValidarHH.PNG")
+
+## 2. Investigación UX
+
+### Usuario
+
+Jesús tiene 25 años, es un joven fanático de los shows de Hablando Huevadas, desde hace meses ha estado esperando que el show llegue a Cusco. En esta su primra experiencia el desea adquirir sus entradas en un sitio seguro y confiable para ello quiere que al momento de pagar los digitos de su tarjeta se oculten evitando que alguien pueda aceder a su información bancaria, ademas desea que las entradas se la envien a su correo electronico.
+
+### Solución de su problema
+
+* La página web oculta los digitos de la tarjeta para brindar mayor seguridad al usuario.
+* La página cuenta con una sección donde podrá colocar su dirección de correo        electronico para enviar las entradas por ese medio.
+* [Link de mi primer prototipo en FIGMA](https://www.figma.com/file/dEkhZpkzfKUgaiaoM34pSa/Untitled?node-id=0%3A1)
+
+### Feedback 
+
+Feedback que recibi de mis compañeras:
+* En la sección inicial de la página utilizar un fondo más claro debido a que opacaba a la información que añadia.
+* En la sección Datos de comprador mejorar el CSS para hacerlo visualmente atractivo.
+* En la sección Datos del comprador agregar un boton (VOLVER) para cargar la pagina y volver nuevamente al inicio de la página.
+
+
+
+
 # Tarjeta de crédito válida
 
 ## Índice
@@ -25,6 +62,8 @@ debemos sumar los dígitos del resultado; el número a verificar será válido s
 la suma de sus dígitos finales es un múltiplo de 10.
 
 ![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
+
+
 
 ## 2. Resumen del proyecto
 

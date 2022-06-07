@@ -10,8 +10,11 @@ En esta página podras comprar entradas para las funciones de Hablando Huevadas 
   * Ocultar los números de la tarjeta para mayor seguridad.
   * Enviar las entradas al correo electronico.
 
-[Imagen final del proyecto primera parte](https://drive.google.com/file/d/1cZnWDb8LoCtze2lcN9bW_kXoBzadl3ch/view)
-[Imagen final del proyecto segunda parte](https://drive.google.com/file/d/1EdvGt5nHSzeA7t7HgFzfHfvhplpFlU1g/view)
+### Imagen final del proyecto primera parte
+(https://user-images.githubusercontent.com/105510528/172437779-1b292859-142d-4d3b-9ab4-9e12947fbf81.PNG)
+
+### Imagen final del proyecto segunda parte
+(https://user-images.githubusercontent.com/105510528/172438128-4e35f049-dadd-4c49-91d1-e3c3d62f1770.PNG)
 
 ## 2. Investigación UX
 

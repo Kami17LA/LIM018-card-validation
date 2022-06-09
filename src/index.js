@@ -39,8 +39,8 @@ cargarNuevamente.addEventListener ('click' , () => location.reload ());
 
 
 let botonComprar = document.getElementById("comprarEntradas");
-botonComprar.addEventListener ("click" , () => {
- document.getElementById("contenedorComprar").style.display="none";
- document.getElementById("contenedorDatos").style.display= "block";
+botonComprar.addEventListener ("click" , () => {                    //none - CCS 101
+ document.getElementById("contenedorComprar").style.display="none";//oculta página inicial
+ document.getElementById("contenedorDatos").style.display= "block";//muestra datos
 })
 

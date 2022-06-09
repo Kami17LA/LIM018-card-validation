@@ -99,7 +99,7 @@ body{
 }
 
 .card1 {
-    display: none;
+    display: none; /*Oculta datos del comprador */
 }
 
 #container .card1{
